@@ -1,0 +1,84 @@
+/* Reset simples */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fonte base */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Menu fixo no topo */
+  .main-menu {
+    background: #004d99;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .main-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main-menu li + li {
+    margin-left: 1.5rem;
+  }
+  
+  .main-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Conteúdo principal */
+  main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  /* Formulário */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin-top: 1rem;
+  }
+  
+  form input,
+  form textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #0066cc;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  /* Rodapé */
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #eee;
+    margin-top: 2rem;
+  }
+  
